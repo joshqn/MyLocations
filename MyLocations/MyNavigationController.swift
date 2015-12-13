@@ -6,4 +6,10 @@
 //  Copyright © 2015 Kuehn LLC. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class MyNavigationController: UINavigationController{
+    override func preferredStatusBarStyle() -> UIStatusBarStyle {
+        return .LightContent
+    }
+}
